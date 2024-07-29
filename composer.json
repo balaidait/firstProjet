@@ -12,11 +12,16 @@
         "symfony/console": "7.1.*",
         "symfony/dotenv": "7.1.*",
         "symfony/flex": "^2",
+        "symfony/form": "7.1.*",
         "symfony/framework-bundle": "7.1.*",
+        "symfony/http-kernel": "7.1.*",
+        "symfony/orm-pack": "*",
         "symfony/runtime": "7.1.*",
-        "symfony/yaml": "7.1.*"
-    },
-    "require-dev": {
+        "symfony/twig-bundle": "7.1.*",
+        "symfony/webapp-pack": "*",
+        "symfony/yaml": "7.1.*",
+        "twig/extra-bundle": "^2.12|^3.0",
+        "twig/twig": "^2.12|^3.0"
     },
     "config": {
         "allow-plugins": {
@@ -66,5 +71,9 @@
             "allow-contrib": false,
             "require": "7.1.*"
         }
+    },
+    "require-dev": {
+        "symfony/debug-bundle": "7.1.*",
+        "symfony/maker-bundle": "*"
     }
 }
